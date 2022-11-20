@@ -1,0 +1,112 @@
+.hero {
+    max-width: 1920px;
+    height: 785px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/hero.jpg);
+}
+
+.hero.container {
+    position: relative;
+}
+
+.advertisement {
+    position: absolute;
+    top: 0;
+    left: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 462px;
+    height: 670px;
+    padding: 100px 74px 100px 75px;
+    background-color: var(--white-color);
+    border-left: 15px solid var(--accent-color);
+}
+
+.advertisement__title {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+.advertisement__name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 125%;
+    margin-bottom: 10px;
+}
+.advertisement__text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 125%;
+    margin-bottom: 30px;
+}
+.advertisement__btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    padding: 14px 46px;
+    margin-bottom: 50px;
+    color: var(--white-color);
+    background: var(--accent-color);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider__num {
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+}
+
+.slider__first-num {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 125%;
+}
+
+.slider__last-num {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+}
+
+.slider__icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.slider__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.slider__link.left {
+    border: 1px solid var(--main-text-color);
+}
+
+.slider__icon-left {
+    fill: var(--main-text-color);
+}
+
+.slider__link.right {
+    background-color: var(--main-text-color);
+}
+
+.slider__icon-right {
+    fill: var(--white-color);
+}
+
