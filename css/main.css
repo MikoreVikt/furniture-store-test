@@ -679,6 +679,19 @@ body {
   gap: 190px;
   margin-bottom: 84px;
 }
+@media screen and (max-width: 1919px) {
+  .products__icons-frame {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 685px;
+    height: auto;
+    margin: 0 auto 84px auto;
+    -webkit-column-gap: 190px;
+       -moz-column-gap: 190px;
+            column-gap: 190px;
+    row-gap: 60px;
+  }
+}
 
 .products__icon-frame {
   display: -webkit-box;
@@ -748,10 +761,10 @@ body {
           column-gap: 30px;
   row-gap: 50px;
   margin-bottom: 50px;
-  cursor: pointer;
 }
 
 .products__image-frame {
+  cursor: pointer;
   -webkit-transition: -webkit-transform var(--anim-standart);
   transition: -webkit-transform var(--anim-standart);
   transition: transform var(--anim-standart);

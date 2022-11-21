@@ -31,6 +31,15 @@
     height: 143px;
     gap: 190px;
     margin-bottom: 84px;
+
+    @media screen and (max-width: 1919px) {
+        flex-wrap: wrap;
+        max-width: 685px;
+        height: auto;
+        margin: 0 auto 84px auto;
+        column-gap: 190px;
+        row-gap: 60px;
+    }
 }
 
 .products__icon-frame {
@@ -79,10 +88,10 @@
     column-gap: 30px;
     row-gap: 50px;
     margin-bottom: 50px;
-    cursor: pointer;
 }
 
 .products__image-frame {
+    cursor: pointer;
     transition: transform var(--anim-standart);
 }
 
