@@ -45,6 +45,11 @@ padding: 0;
     border-right: 15px solid var(--accent-color);
     background-color: var(--white-color);
     transform: translateY(-50%);
+
+    @media screen and(max-width:830px) {
+        width: auto;
+        height: auto;
+    }
 }
 
 .about__img-text-frame span {
@@ -58,6 +63,16 @@ padding: 0;
 .about__img-text-frame p {
     font-size: 18px;
     line-height: 125%;
+
+    @media screen and(max-width:830px) {
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+    @media screen and(max-width:700px) {
+        font-size: 12px;
+        line-height: 100%;
+    }
 }
 
 .about__img {
